@@ -1,0 +1,20 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark-gray: hsl(0, 0%, 55%);
+    --very-dark-gray: hsl(0, 0%, 41%);
+
+    --font1: 'Alata', sans-serif;
+    --font2: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-image: url(../images/desktop/image-hero.jpg);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--fonte);
+    font-size: 15px;
+    min-height: 100vh;
+}

@@ -1,0 +1,16 @@
+@import url(_reset.css);
+@import url(_style.css);
+
+header {
+    /* background-image: url(../images/desktop/image-hero.jpg); */
+    color: var(--white);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu nav {
+    /* padding: 2rem; */
+}
